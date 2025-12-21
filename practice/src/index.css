@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(85, 85, 86);
+}
+
+/* body{
+  background-color: rgb(101, 99, 99);
+}
+
+.Card{
+  height: 200px;
+  width: 100%;
+  background-color: rgb(50, 23, 45);
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+}
+.box{
+  height: 400px;
+  width: 400px;
+  background-color: blueviolet;
+} */
+
+form{
+  display: flex;
+  flex-direction: column;
+
+}
+button{
+  width: 200px;
+  height: 30px;
+  background-color: black;
+  color: aliceblue;
+  /* margin-left: 0; */
+  margin: 10px;
+  margin-left: 0;
+}
+
+input{
+  width: 200px;
+  height: 30px;
+  background-color: rgb(106, 108, 109);
+  color: rgb(8, 8, 8);
+  
+
+}
+::placeholder{
+color: rgb(8, 8, 8);}
